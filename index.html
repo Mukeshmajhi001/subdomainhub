@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SubDomainHub</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1006/1006559.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="gallery/headp.png" />
+</head>
+
+<body>
+
+    <!-- ══ NAVBAR ══ -->
+    <nav>
+        <div class="nav-wrap">
+            <div class="nav-top">
+
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fas fa-cube"></i></div>
+                    <span class="logo-name">SubDomain<span>Hub</span></span>
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="https://mukeshkumarmajhi.com.np/" target="_blank"
+                            rel="noopener noreferrer">Portfolio</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                </ul>
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <i class="fas fa-bars" id="ham-icon"></i>
+                </button>
+
+            </div>
+
+            <!-- Mobile dropdown -->
+            <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+                <div class="mobile-menu-inner">
+                    <a href="#"><i class="fas fa-house"></i> Home</a>
+                    <a href="https://mukeshkumarmajhi.com.np/" target="_blank" rel="noopener noreferrer"><i
+                            class="fas fa-briefcase"></i> Portfolio</a>
+                    <a href="#blog"><i class="fas fa-images"></i> Blog</a>
+                    <a href="#gallery"><i class="fas fa-images"></i> Gallery</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ══ HERO ══ -->
+    <section class="hero">
+        <div class="hero-badge">
+            <i class="fas fa-star"></i> SubDomain Digital Agency
+        </div>
+
+        <h1>Crafted for the<br><em>Sub Domain</em></h1>
+        <P>Every Subdomain Crafted with Excellence.</P>
+
+        <div class="hero-cta">
+            <a href="https://mukeshkumarmajhi.com.np/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                <i class="fas fa-rocket"></i> Portfolio
+            </a>
+            <a href="#contact" class="btn-ghost">
+                <i class="fas fa-envelope"></i> Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- ══ Portfolio ══ -->
+    <section class="Portfolio" id="Portfolio">
+        <div class="section-head">
+            <h2>SUB DOMAIN's</h2>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Card 1 — Active -->
+            <a href="https://blog.mukeshkumarmajhi.com.np/" target="_blank" rel="noopener noreferrer"
+                class="card fade-up">
+                <div class="card-inset">
+                    <div class="card-img">
+                        <img src="gallery/blog.png" alt="Web Development" loading="lazy" />
+                        <span class="img-badge">blog</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="card-title">Mks-75 blog</h3>
+                        <p class="card-desc">Exploring technology, development, and life lessons.
+                            Straight from the mind. No hype. Just value.</p>
+                        <span class="card-cta">Explore <i class="fas fa-arrow-right"
+                                style="font-size:0.7rem"></i></span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 2 — Active -->
+            <a href="https://pdf.mukeshkumarmajhi.com.np/" target="_blank" rel="noopener noreferrer"
+                class="card fade-up">
+                <div class="card-inset">
+                    <div class="card-img">
+                        <img src="gallery/pdf.png" alt="Mobile App" loading="lazy" />
+                        <span class="img-badge">PDF-MKR</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 class="card-title">PDF-MKR</h3>
+                        <p class="card-desc">Fast & Simple Online PDF Maker
+                            Create professional PDFs in seconds.</p>
+                        <span class="card-cta">Explore <i class="fas fa-arrow-right"
+                                style="font-size:0.7rem"></i></span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 3 — LOCKED / UPCOMING -->
+            <div class="card locked fade-up" aria-label="Coming soon — Digital Marketing">
+                <div class="card-inset">
+                    <div class="card-img">
+                        <img src="gallery/gallery.png" alt="Digital Marketing" loading="lazy" />
+
+                        <!-- Upcoming badge (top-left, above overlay) -->
+                        <span class="upcoming-badge">
+                            <i class="fas fa-clock"></i> Upcoming
+                        </span>
+
+                        <!-- Lock overlay -->
+                        <div class="lock-overlay">
+                            <div class="lock-icon-wrap">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <span class="lock-overlay-text">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 class="card-title">Gallery</h3>
+                        <p class="card-desc">A collection of my favorite photos and creative works.</p>
+                        <span class="card-cta">Explore <i class="fas fa-arrow-right"
+                                style="font-size:0.7rem"></i></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══ FOOTER ══ -->
+    <footer id="contact">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <i class="fas fa-cube" style="color:var(--nm-accent)"></i>
+                SubDomain<span>Hub</span>
+            </div>
+
+            <p>© 2025 SubDomainHub — All rights reserved</p>
+
+            <div class="footer-links">
+                <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/mukeshmajhi001" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
